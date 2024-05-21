@@ -3,7 +3,7 @@ import 'package:flutter_lab7/models/brand.dart';
 import 'package:flutter_lab7/services/database_service.dart';
 
 class BrandFormPage extends StatefulWidget {
-const BrandFormPage({super.key});
+const BrandFormPage({super.key, required Brand brand});
  @override
  State<BrandFormPage> createState() => _BrandFormPageState();
 }
